@@ -26,7 +26,7 @@ const OrderReceivedEmail = ({
   const baseUrl =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://casecobra.vercel.app'
+      : 'https://case-cobra-beryl.vercel.app'
 
   return (
     <Html>
@@ -67,7 +67,7 @@ const OrderReceivedEmail = ({
                 <Text style={global.paragraphWithBold}>Order Number</Text>
                 <Text style={track.number}>{orderId}</Text>
               </Column>
-              <Column style={{marginLeft: 20}}>
+              <Column style={{marginLeft: 50}}>
                 <Text style={global.paragraphWithBold}>Order Date</Text>
                 <Text style={track.number}>{orderDate}</Text>
               </Column>
