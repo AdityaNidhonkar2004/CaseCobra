@@ -2,7 +2,7 @@
 
 Welcome to our Custom iPhone Case eCommerce Platform! This project is a comprehensive solution for selling personalized iPhone cases, built with modern technologies and a focus on user experience.
 
-![Project Image](https://github.com/joschan21/casecobra/blob/master/public/thumbnail.png)
+![Project Image](https://github.com/AdityaNidhonkar2004/CaseCobra/blob/main/public/thumbnail.png)
 
 ## Features
 
@@ -46,13 +46,13 @@ The entire codebase is written in TypeScript, providing type safety and better d
 
 1. **Clone the Repository**  
    ```
-   git clone https://github.com/your-repo/custom-iphone-case-ecommerce.git
+   git clone https://github.com/AdityaNidhonkar2004/CaseCobra.git
    ```
 
 2. **Install Dependencies**  
    ```
    cd custom-iphone-case-ecommerce
-   npm install
+   pnpm install
    ```
 
 3. **Run the Development Server**  
