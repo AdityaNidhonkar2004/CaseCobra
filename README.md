@@ -67,10 +67,6 @@ The entire codebase is written in TypeScript, providing type safety and better d
 
 For deployment instructions, please refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Thank you for using our Custom iPhone Case eCommerce Platform! We hope you and your customers enjoy a seamless and enjoyable experience.
