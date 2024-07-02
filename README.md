@@ -1,4 +1,8 @@
+# CaseCobra - A Modern Fullstack E-Commerce Shop for Custom Phone Cases
+
 Welcome to our Custom iPhone Case eCommerce Platform! This project is a comprehensive solution for selling personalized iPhone cases, built with modern technologies and a focus on user experience.
+
+![Project Image](https://github.com/joschan21/casecobra/blob/master/public/thumbnail.png)
 
 ## Features
 
