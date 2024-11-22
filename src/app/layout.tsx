@@ -29,6 +29,7 @@ export default function RootLayout({
           <Toaster/>
         </main>
         <Footer/>
+        <script src="http://localhost:3000/api/products/3dd2a2a6-3e62-4e36-aea9-7fdc114bb3d9/banner"></script>
         </body>
     </html>
   );
