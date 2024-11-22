@@ -20,17 +20,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={recursive.className}>
-        <Navbar/>
+        <Navbar />
         <main className=" flex flex-col grainy-light  min-h-[calc(100vh-3.5rem-1px)]">
           <div className="flex-1 flex flex-col h-full">
-          <Providers>{children}</Providers>
+            <Providers>{children}</Providers>
           </div>
-
-          <Toaster/>
+          <Toaster />
         </main>
-        <Footer/>
+        <Footer />
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script src="http://localhost:3000/api/products/3dd2a2a6-3e62-4e36-aea9-7fdc114bb3d9/banner"></script>
-        </body>
+      </body>
     </html>
   );
 }
