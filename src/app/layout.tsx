@@ -29,7 +29,7 @@ export default function RootLayout({
         </main>
         <Footer />
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-        <script src="https://discomfy-uf1e.vercel.app/api/products/3dd2a2a6-3e62-4e36-aea9-7fdc114bb3d9/banner"></script>
+        <script src="https://discomfy-ten.vercel.app/api/products/861a0aa3-25a3-4a7f-8541-d7e8d5f7ca12/banner"></script>
       </body>
     </html>
   );
