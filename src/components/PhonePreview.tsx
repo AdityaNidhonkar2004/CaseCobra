@@ -25,7 +25,7 @@ const PhonePreview = ({croppedImageUrl,color}:{croppedImageUrl: string ,color: C
         window.addEventListener("resize",handleResize)
 
         return ()=> window.removeEventListener("resize",handleResize)
-    },[ref.current])
+    },[])
 
     let caseBackgroundColor = 'bg-zinc-900'
     if(color === 'blue') caseBackgroundColor='bg-blue-950'

@@ -40,6 +40,7 @@ const DesignConfigurator = ({
   imageUrl,
   imageDimensions,
 }: DesignConfiguratorProps) => {
+  // console.log(imageUrl)
   const { toast } = useToast();
   const router = useRouter();
   const { mutate: saveConfig , isPending } = useMutation({

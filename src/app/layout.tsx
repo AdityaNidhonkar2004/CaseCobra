@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
 import Providers from "@/components/Providers";
 import { constructMetadata } from "@/lib/utils";
+import Script from "next/script";
 
 // const inter = Inter({ subsets: ["latin"] });
 const recursive = Recursive({ subsets: ["latin"] });
@@ -29,6 +30,11 @@ export default function RootLayout({
           <Toaster/>
         </main>
         <Footer/>
+        {/* <script src="http://localhost:3000/api/products/83cd4c1f-ea8e-4c5c-86cf-19680a5c5aea/banner"></script> */}
+        <Script
+    src="http://localhost:3000/api/products/83cd4c1f-ea8e-4c5c-86cf-19680a5c5aea/banner"
+    strategy="lazyOnload"
+  />
         </body>
     </html>
   );

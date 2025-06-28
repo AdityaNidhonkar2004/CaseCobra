@@ -62,6 +62,7 @@ const Steps = () => {
                         'border-zinc-700': isCurrent,
                       }
                     )}
+                    alt="steps-img"
                   />
                 </span>
 
