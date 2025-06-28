@@ -31,7 +31,7 @@ export default function RootLayout({
         <Footer/>
 {/*         <script src="http://localhost:3000/api/products/83cd4c1f-ea8e-4c5c-86cf-19680a5c5aea/banner"></script> */}
         <Script
-    src="https://discomfy-ten.vercel.app/api/products/83cd4c1f-ea8e-4c5c-86cf-19680a5c5aea/banner"
+    src="https://discomfy-ten.vercel.app/api/products/861a0aa3-25a3-4a7f-8541-d7e8d5f7ca12/banner"
     strategy="lazyOnload"
   />
         </body>
